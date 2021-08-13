@@ -6,3 +6,8 @@ const ferbApi = "https://api.funtranslations.com/translate/ferb-latin.json";
 const translateQuery = (text) => {
   return ferbApi + "?text=" + text;
 };
+
+const errorHandler = (err) => {
+  console.log(err);
+  alert("Something went wrong, Please try again later!");
+};
