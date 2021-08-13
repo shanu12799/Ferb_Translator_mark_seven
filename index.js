@@ -22,3 +22,5 @@ const transelateText = () => {
     })
     .catch(errorHandler);
 };
+
+translateButton.addEventListener("click", transelateText);
