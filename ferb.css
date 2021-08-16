@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Recursive:wght@300&display=swap");
+
+header {
+  margin: auto;
+}
+
+h1 {
+  color: #6823cf;
+  background-color: #8acf23;
+  font-family: Recursive;
+  font-weight: bolder;
+  padding: 1rem;
+}
+
+.hello-img {
+  background-image: url("ferb.jpg");
+  background-size: cover;
+  height: 30rem;
+  width: 100vw;
+}
+
+.main-sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#input-text-area {
+  margin: 1rem;
+  width: 40vw;
+  height: 4rem;
+}
+
+#translate-btn {
+  color: #6823cf;
+  background-color: #8acf23;
+  font-family: Georama;
+  font-weight: bold;
+  font-size: larger;
+  padding: 1rem;
+  border-radius: 4px;
+  border-color: #6823cf;
+  -webkit-box-shadow: 5px 5px 13px 0px rgba(50, 50, 50, 0.39);
+  -moz-box-shadow: 5px 5px 13px 0px rgba(50, 50, 50, 0.39);
+  box-shadow: 5px 5px 13px 0px rgba(50, 50, 50, 0.39);
+}
+
+#output-div {
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-family: Georama;
+  padding: 0.5rem;
+  border: 2px solid #6823cf;
+  border-radius: 4px;
+}
+
+.para {
+  background-color: #cdee9b;
+  border-radius: 2px;
+  margin: 2rem;
+  text-align: center;
+  padding: 0.5rem;
+  color: navy;
+}
+
+footer {
+  background-color: #8acf23;
+  text-align: center;
+  align-items: center;
+}
+
+ul {
+  display: inline-block;
+  margin: 0.5rem;
+}
+
+li {
+  color: #6823cf;
+  display: inline;
+  margin: 1rem;
+}
+
+#legacyText {
+  text-align: center;
+  bottom: 0;
+}
+
+@media screen and (max-width: 480px) {
+  .hello-img {
+    align-self: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 15rem;
+    width: 100vw;
+  }
+}
