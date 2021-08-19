@@ -4,66 +4,36 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="ferb.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
     />
-    <title>Ferb Latin Translator</title>
+    <title>Pirate Translator</title>
   </head>
   <body>
-    <header>
-      <h1>Ferb Latin Translator</h1>
-    </header>
+<nav>
+        <div style="font-size: 2rem; padding: 1rem; color: white;">
+            Pirate
+        </div>
 
-    <div class="hello-img"></div>
-    <div class="main-sec">
-      <textarea
-        id="input-text-area"
-        placeholder="Enter your text and it will be converted to the Ferb Latin"
-      ></textarea>
+    </nav>
+    <main >
+        <textarea id="translate-input"
+            placeholder="Put your message here which you want to convert to pirate language"></textarea>
+        <button id="translate-button" style="color: white;"> Talk to Pirate</button>
+        <div >Translation will come here 👇</div>
 
-      <button id="translate-btn">Translate To Ferb Latin</button>
+        <div id="translate-output" style="padding: 1rem; font-size: large;"></div>
 
-      <p>Translated text will be shown here 👇</p>
 
-      <div id="output-div"></div>
+    </main>
 
-      <p class="para">
-        Are you a fan of Phineas and Ferb? Do you know about Ferb Latin. Use
-        this translator to convert plain text to Ferb Latin.
-      </p>
 
-      <footer>
-        <ul>
-          <li>
-            <a class="icon" href="https://github.com/SJTGSHIVAM">
-              <i class="fab fa-github"></i>
-            </a>
-          </li>
-          <li>
-            <a class="icon" href="https://sjtgshivam.medium.com">
-              <i class="fab fa-medium"></i>
-            </a>
-          </li>
-          <li>
-            <a
-              class="icon"
-              href="https://www.linkedin.com/in/shivam-pandey-766524161"
-            >
-              <i class="fab fa-linkedin-in"></i>
-            </a>
-          </li>
-          <li>
-            <a class="icon" href="https://sjtgshivam.netlify.app/">
-              <i class="fa fa-briefcase" aria-hidden="true"></i>
-            </a>
-          </li>
-        </ul>
-
-        <div id="legacyText">© 2021 | Shivam Pandey</div>
-      </footer>
-    </div>
+    <footer>
+        <div style="font-size: x-large; color: white;">― Captain Henry Avery. </div>
+        <p>“If you’ll turn sober, and mind your business, perhaps in time I may make you one of my Lieutenants, if not, here’s a boat alongside and you shall be set ashore.”</p>
+    </footer>
     <script src="index.js" type="text/javascript"></script>
   </body>
 </html>
